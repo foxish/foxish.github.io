@@ -98,6 +98,7 @@ header h2 {
 .inner {
   position: relative;
   width: 940px;
+  min-height: 150px;
   margin: 0 auto;
 }
 
@@ -315,6 +316,7 @@ h6:before {
 p {
   margin-bottom: 20px;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-size: 1.2em;
 }
  
 a {
@@ -350,6 +352,8 @@ dl dd {
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
+  text-align: center;
+  bottom:0;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
@@ -484,3 +488,17 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+.clearboth{
+	clear:both;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+.social_link{
+	padding: 5px;
+}
