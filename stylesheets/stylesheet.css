@@ -23,6 +23,14 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+#loading{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px auto;
+	clear: both;
+}
+
 #main-menu{
 	/*width: 400px;*/
 
@@ -507,3 +515,5 @@ footer a:hover {
 .floatleft{}
 .floatright{}
 }
+
+

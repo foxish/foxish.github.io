@@ -23,16 +23,27 @@
 		<script>
 			$(function() {
 			  $('#main-menu').smartmenus();
-			  $('#main-content').load('inner_pages/' + 'about.html');
 			});
 			function load_page(page){
-				$('#main-content').load('inner_pages/' + page + '.html');
-			}
-			
+				$('#main-content').html('<div id="loading"><img src="images/loading.gif"/></div>')
+				$('#main-content').load('inner_pages/' + page + '.html', function( response, status, xhr ){
+					if ( status == "error" ) {
+						$('#main-content').load('inner_pages/404.html');
+					}
+				});
+				//remove existing classes
+				$('#main-menu a').removeClass('current');
+				$('#' + page).addClass('current');
+			}		
 		$(document).ready(function() {
-			load_page(window.location.hash.substring(1));
+			var hash = window.location.hash.substring(1);
+			if(hash.length > 0){
+				load_page(hash);
+			}else{
+				//default: goto #about
+				load_page('about');
+			}
 		});
-		
 		</script>
 	</head>
 
@@ -41,10 +52,10 @@
 		<div class="inner">
 			<h1>Anirudh R</h1>
 			<ul id="main-menu" class="sm sm-simple">
-				<li><a href="#about" onclick="javascript:load_page('about')">About Me</a></li>
-				<li><a href="#cv" onclick="javascript:load_page('cv')">Work</a></li>
-				<li><a href="#projects" onclick="javascript:load_page('projects')">Projects</a></li>
-				<li><a href="#problems" onclick="javascript:load_page('problems')">Problems/Solutions</a></li>
+				<li><a id='about' href="#about" onclick="javascript:load_page('about')">About Me</a></li>
+				<li><a id='cv' href="#cv" onclick="javascript:load_page('cv')">Work</a></li>
+				<li><a id='projects' href="#projects" onclick="javascript:load_page('projects')">Projects</a></li>
+				<li><a id='problems' href="#problems" onclick="javascript:load_page('problems')">Problems/Solutions</a></li>
 			</ul>
 		</div>
 	</header>
