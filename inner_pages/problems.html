@@ -1,7 +1,7 @@
 <style type="text/css">
 body
 {
-	counter-reset: Serial;           /* Set the Serial counter to 0 */
+	counter-reset: Serial;
 }
 table
 {
@@ -12,13 +12,15 @@ tr td:first-child:before
   counter-increment: Serial;    
   content: counter(Serial);
 }
-th{
+thead{
+	font-size:1.2em;
+	font-style:italic;
 	
 }
 </style>
 
 <table dir="ltr" width="500" border="1" 
-			summary="purpose/structure for speech output">
+			summary="">
 	<caption></caption>
 	
 	<colgroup/>
