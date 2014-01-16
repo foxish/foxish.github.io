@@ -1,0 +1,55 @@
+<style type="text/css">
+	body
+	{
+		counter-reset: Serial;           /* Set the Serial counter to 0 */
+	}
+	table
+	{
+		border-collapse: separate;
+	}
+	tr td:first-child:before
+	{
+	  counter-increment: Serial;    
+	  content: counter(Serial);
+	}
+</style>
+
+<table dir="ltr" width="500" border="1" 
+			summary="purpose/structure for speech output">
+	<caption></caption>
+	
+	<colgroup/>
+	<colgroup id="colgroup" class="colgroup" align="center" 
+			valign="middle" title="title" width="1*" 
+			span="2" style="background:#ddd;" />
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Name</th>
+			<th scope="col">Implementation</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+			<td>Depth-First Search</td>
+			<td><a href="https://github.com/foxish/Misc-Experiments/tree/master/Python-Graphs">py</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Breadth-First Search</td>
+			<td><a href="https://github.com/foxish/Misc-Experiments/tree/master/Python-Graphs">py</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Knight's Tour</td>
+			<td><a href="https://github.com/foxish/Misc-Experiments/blob/master/Python-Graphs/knight_tour.py">py</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Word Transform</td>
+			<td><a href="https://github.com/foxish/Misc-Experiments/blob/master/Python-Graphs/word_transform.py">py</a></td>
+		</tr>
+		
+	</tbody>
+</table>

@@ -26,8 +26,13 @@
 			  $('#main-content').load('inner_pages/' + 'about.html');
 			});
 			function load_page(page){
-				$('#main-content').load('inner_pages/' + page);
+				$('#main-content').load('inner_pages/' + page + '.html');
 			}
+			
+		$(document).ready(function() {
+			load_page(window.location.hash.substring(1));
+		});
+		
 		</script>
 	</head>
 
@@ -36,9 +41,10 @@
 		<div class="inner">
 			<h1>Anirudh R</h1>
 			<ul id="main-menu" class="sm sm-simple">
-				<li><a href="#about" onclick="javascript:load_page('about.html')">About Me</a></li>
-				<li><a href="#cv" onclick="javascript:load_page('projects.html')">Work</a></li>
-				<li><a href="#projects" onclick="javascript:load_page('experiments.html')">Projects</a></li>
+				<li><a href="#about" onclick="javascript:load_page('about')">About Me</a></li>
+				<li><a href="#cv" onclick="javascript:load_page('cv')">Work</a></li>
+				<li><a href="#projects" onclick="javascript:load_page('projects')">Projects</a></li>
+				<li><a href="#problems" onclick="javascript:load_page('problems')">Solutions</a></li>
 			</ul>
 		</div>
 	</header>
