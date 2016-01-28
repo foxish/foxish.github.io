@@ -581,6 +581,12 @@ input:focus + header {
   transform-origin:top left;
 }
 
+.cardheader {
+  padding-bottom:15px;
+  
+  
+}
+
 .card:nth-child(even){
   animation-name:fly-in-from-right;
   animation-delay:0.5s;
