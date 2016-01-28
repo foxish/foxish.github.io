@@ -26,7 +26,7 @@
 			  $('#main-menu').smartmenus();
 			});
 			function load_page(page){
-				$('#main-content').html('<div id="loading"><img src="images/loading.gif"/></div>')
+				$('#main-content').html('<div id="loading" class="centerpiece"><img src="images/loading.gif"/></div>')
 				$('#main-content').load('inner_pages/' + page + '.html', function( response, status, xhr ){
 					if ( status == "error" ) {
 						$('#main-content').load('inner_pages/404.html');

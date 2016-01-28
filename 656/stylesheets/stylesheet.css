@@ -118,7 +118,7 @@ header h2 {
 }
 
 #main-content {
-  width: auto;
+  width: 100%;
   float: left;
 }
 
@@ -235,7 +235,6 @@ form {
   padding: 20px;
   
 }
-
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -401,6 +400,12 @@ footer a:hover {
 	padding: 5px;
 }
 
+.centerpiece {
+  margin: 0px auto;
+  position: relative;
+  display:block;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -422,7 +427,7 @@ footer a:hover {
     font-size: 40px;
   }
   #main-content {
-    width: auto;
+    width: 100%;
   }
   #main-content h1:before,
   #main-content h2:before,
@@ -653,5 +658,4 @@ h2 {
 
 .svg{
   min-width:800px; 
-}
 }
