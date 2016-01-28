@@ -1,0 +1,39 @@
+{
+ "name": "Media",
+ "children": [
+  {"name": "Social Networking", "size": 7,
+    "children": [
+        {"name": "Facebook", "size": 5},
+        {"name": "Twitter", "size": 4},
+        {"name": "Stackoverflow", "size": 4},
+        {"name": "IRC", "size": 3}
+      ]
+  },
+  {"name": "Portable Computing Devices", "size": 5,
+    "children": [
+        {"name": "Text/Calling", "size": 5},
+        {"name": "Music", "size": 4, 
+          "children": [
+            {"name": "Trance", "size": 5},
+            {"name": "Instrumental", "size": 4}
+          ]
+        },
+        {"name": "News", "size": 4,
+          "children": [
+            {"name": "Google News", "size": 5},
+            {"name": "The Verge", "size": 4}
+          ]
+        },
+        {"name": "YouTube", "size": 5}
+      ]
+  },
+  {"name": "Instant Messenger", "size": 3,
+    "children": [
+        {"name": "Whatsapp", "size": 5},
+        {"name": "Facebook Messenger", "size": 4},
+        {"name": "Google Hangouts", "size": 4}
+      ]
+  },
+  {"name": "Email", "size": 3}
+ ]
+}
