@@ -52,7 +52,7 @@
 						    being the AI. <br/><br/>
 						    
                             <style type="text/css">
-                            .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+                            .tg  {border-collapse:collapse;border-spacing:0;}
                             .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
                             .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
                             .tg .tg-yw4l{vertical-align:top}
@@ -157,28 +157,27 @@
                         <p>
                             <h3>Part 2: A running example.</h3>
                             <style type="text/css">
-                                        .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-                                        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:1px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-                                        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:1px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-                                        .tg .tg-yw4l{vertical-align:top}
-                                        @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
-                                        <div class="tg-wrap"><table class="tg" id="game">
-                                          <tr>
-                                            <th class="tg-yw4l">You chose</th>
-                                            <th class="tg-yw4l">AI chose</th>
-                                            <th class="tg-yw4l">Outcome</th>
-                                            <th class="tg-yw4l">w1</th>
-                                            <th class="tg-yw4l">w2</th>
-                                          </tr>
-                            </table></div><br /><br />
-                            
-                            Click either of the two doors to play. You are player 1.
-						    <table>
+                                .tg  {border-collapse:collapse;border-spacing:0;max-width:500px;}
+                                .tg td{font-family:Arial, sans-serif;font-size:14px;padding:1px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+                                .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:1px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+                                .tg .tg-yw4l{vertical-align:top}
+                                @media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+                                <div class="tg-wrap"><table class="tg" id="game">
+                                  <tr>
+                                    <th class="tg-yw4l">You chose</th>
+                                    <th class="tg-yw4l">AI chose</th>
+                                    <th class="tg-yw4l">Outcome</th>
+                                    <th class="tg-yw4l">w1</th>
+                                    <th class="tg-yw4l">w2</th>
+                                  </tr>
+                            </table></div>
+						    <table style="max-width:500px;">
 						        <tr>
 						           <td><img src="../images/door.png" onclick="javascript:play(0); return false;"> Door 0 </td>
 						           <td><img src="../images/door.png" onclick="javascript:play(1); return false;"> Door 1 </td>
 						        </tr>
 						    </table>
+						    Click either of the two doors to play. You are player 1. <br/>
 						</p>
 						
 						<p>
@@ -194,6 +193,10 @@
 						The interesting parts are in perceptron.js. The play function is simply hooked up to each of the
 						images and serves to display results and train the model as we go. The effect of the learning rate and so 
 						on can be experimentally determined on that fiddle.
+					</p>
+					<p>
+					  <h3>Part 4: Conceptual Understanding</h3>
+					  Coming soon...
 					</p>
 			</div>
 		<!-- Scripts -->
