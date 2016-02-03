@@ -199,6 +199,7 @@
 					  <h3>Part 4: Conceptual Understanding</h3>
 					  Coming soon...
 					</p>
+					<div id="disqus_thread"></div>
 			</div>
 			<section>
 				<a href="/work" title="Back to the Home page"><b>Back to Home Page</b></a> | <a href="#" title="To the top of this page"><b>Back to Top</b></a>
@@ -219,5 +220,21 @@
 				  ga('create', 'UA-73284504-1', 'auto');
 				  ga('send', 'pageview');
 			</script>
+			<script>
+				var disqus_config = function () {
+				this.page.url = "http://foxish.github.io/work/"; // Replace PAGE_URL with your page's canonical URL variable
+				this.page.identifier = "neural"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				};
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				
+				s.src = '//learnresearchengineer.disqus.com/embed.js';
+				
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+			<script id="dsq-count-scr" src="//learnresearchengineer.disqus.com/count.js" async></script>
 	</body>
 </html>
