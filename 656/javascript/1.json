@@ -32,7 +32,7 @@
         {"name": "YouTube", "size": 5,
           "children": [
             {"name": "Károly Zsolnai-Fehér", "size": 5},
-            {"name": "The Late Show with Stephen Colbert", "size": 4},
+            {"name": "Stephen Colbert", "size": 4},
             {"name": "GoogleTechTalks", "size": 4}
           ]
         }
