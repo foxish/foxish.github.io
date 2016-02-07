@@ -82,6 +82,7 @@ header {
   padding-bottom: 0px;
   /*font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif; */
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background-size: cover;
   border-top: solid 1px #275da1;
   background-color: white;
 }
