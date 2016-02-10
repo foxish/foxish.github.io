@@ -3,7 +3,7 @@
   <p>
     Undergraduate students constitute around 74% of the class.
     The class objectives I found commonly were, HCI research/interest in the area (<a href="http://students.cse.tamu.edu/caioddm/656/">Caio Duarte Diniz Monteiro</a>, <a href="https://amancsce.wordpress.com/2016/01/24/why-computers-and-new-media/">
-Aman Goyal</a>), Explorative Study (<a href="http://people.tamu.edu/~pawansingh9/cnm/">Pawan Kumar Singh</a>), Having taken a related course (<a href="http://people.tamu.edu/~spicyrhino/">James Jetton</a>) and it being a required course.
+Aman Goyal</a>), explorative Study (<a href="http://people.tamu.edu/~pawansingh9/cnm/">Pawan Kumar Singh</a>), having taken a related course (<a href="http://people.tamu.edu/~spicyrhino/">James Jetton</a>) and it being a required course.
   </p>
 </section>
 
@@ -65,7 +65,7 @@ d3.json("javascript/2.json", function(error, root) {
   node.append("text")
       .attr("dy", ".3em")
       .style("text-anchor", "middle")
-      .text(function(d) { return d.className.substring(0, d.r / 3); });
+      .text(function(d) { return d.className.substring(0, d.r / 3) + " (" + format(d.value)+ ")"; });
 });
 
 // Returns a flattened hierarchy containing all leaf nodes under the root.
@@ -85,6 +85,6 @@ d3.select(self.frameElement).style("height", diameter + "px");
 
 <section class="card" id="svg2">
   <div class="cardheader"><strong>Relative Popularity of Media</strong><br/></div>
-  Hovering over each media type shows the absolute measure of the 
+  The number next to each type shows the absolute measure of the 
   number of students who mentioned it.
 </section>
