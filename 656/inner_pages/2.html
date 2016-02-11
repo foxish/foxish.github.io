@@ -88,3 +88,19 @@ d3.select(self.frameElement).style("height", diameter + "px");
   The number next to each type shows the absolute measure of the 
   number of students who mentioned it.
 </section>
+
+<section class="card">
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+  <div class="cardheader"><strong>Analysis Methodology</strong><br/></div>
+  <p>
+  The analysis was carried out in several steps which are outlined below.
+  <ul>
+    <li>The first step was the aggregation of student data in the format mentioned below in "studentN.txt". It requires
+    a DOM-aware parser and a <a href="https://github.com/foxish/CrawlingGrabber/tree/master" target="_blank">crawler</a> to accomplish it. Some students have non-textual representations, which makes it fail
+    in some cases.</li>
+    <li>Secondly, we prune the data using the bash script shown below and feed it to the python script.</li>
+    <li>The python script is a crude state machine which emits the names and URLs. In the example shown, the names of students who mentioned "skype" are emitted.</li>
+  </ul>
+  </p>
+   <code data-gist-id="13db775bd7fa66a1b553"></code>
+</section>
