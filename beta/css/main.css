@@ -1,0 +1,5 @@
+.social-icons img {margin: 0; padding: 0; width: 48px; height: 48px}
+a:link    { color: #0099cc }  /* unvisited links */
+a:visited { color: #0099cc }  /* visited links   */
+a:hover   { color: #33b5e5 }  /* user hovers     */
+a { text-decoration: none; }
