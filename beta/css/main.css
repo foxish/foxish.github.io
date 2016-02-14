@@ -30,3 +30,36 @@ a { text-decoration: none; }
     	display:block;
 	}
 }
+
+
+
+/* 4 COLUMN LAYOUT */
+/* 1 column: 320px */
+.autowide {
+  margin: 0 auto;
+	width: 98%;
+}
+.autowide img {
+  float: left;
+  margin: 0 .75rem 0 0;
+}
+.autowide .module {
+  background-color: #efefef;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+}
+.autowide .module p,h4 {
+  padding: .25rem .75rem;
+}
+
+/* 2 columns: 600px */
+@media only screen and (min-width: 600px) {
+  .autowide .module {
+		float: left;
+		margin-right: 2.564102564102564%;
+		width: 48.717948717948715%;
+	}
+	.autowide .module:nth-child(2n+0) {
+		margin-right: 0;
+	}
+}
