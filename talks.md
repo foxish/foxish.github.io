@@ -14,7 +14,7 @@ Session Page: <a href="https://www.meetup.com/Couchbase-Silicon-Valley/events/24
 
 Provide an overview of GKE. We’ll do a walk-through how to deploy a Couchbase cluster in GKE with Couchbase Operator. We’ll also demonstrate scaling and simulate failure scenarios to show how the operator reacts under stress, simplifying administration and operations for the user.
 
-<iframe width="500" height="315" src="http://www.youtube.com/embed/qEY5rwg6934?start=40m" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="315" src="http://www.youtube.com/embed/qEY5rwg6934?start=2400" frameborder="0" allowfullscreen></iframe>
 
 ### Google Cloud Platform Blog
 Date: March 06, 2018 <br/>
@@ -38,7 +38,7 @@ Session Page: <a href="https://www.meetup.com/San-Francisco-Kubernetes-Meetup/ev
 
 Kubernetes as an application deployment platform can help set up and deploy machine learning applications, all the way from training to production. This talk describes the newly evolving ML stack built entirely on Kubernetes. It also goes into details of how one can use a combination of different tools to create a portable and powerful ML stack.
 
-<iframe width="500" height="315" src="http://www.youtube.com/embed/72TQaLq0C5I?start=47m40s" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="315" src="http://www.youtube.com/embed/72TQaLq0C5I?start=2864" frameborder="0" allowfullscreen></iframe>
 
 ### Global Big Data Conference
 Date: June 11, 2017 <br/>
@@ -67,7 +67,7 @@ Session Page: <a href="https://www.meetup.com/Advanced-Spark-and-TensorFlow-Meet
 Introduction to Spark & HDFS in the context of Big Data applications in
 containerized environments.
 
-<iframe width="500" height="315" src="http://www.youtube.com/embed/gJdcEAAtQ7w?start=7837s" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="315" src="http://www.youtube.com/embed/gJdcEAAtQ7w?start=7914" frameborder="0" allowfullscreen></iframe>
 
 ### SIG Big Data
 Date: Jan 01, 2017 - Now <br/>
@@ -88,4 +88,4 @@ Date: Jan 01, 2017 - Now
 SIG Chairs and Leads give regular updates to the Kubernetes community at the community meeting.
 On a regular cadence, SIG Big Data also presents an overview of the work we're doing.
 
-<iframe width="500" height="315" src="http://www.youtube.com/embed/mpfqSBcdSHI?start=23m" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="315" src="http://www.youtube.com/embed/mpfqSBcdSHI?start=1380" frameborder="0" allowfullscreen></iframe>
