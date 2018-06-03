@@ -9,9 +9,9 @@ permalink:        pretty
 # Setup
 title:            Anirudh Ramanathan
 tagline:          Personal Webpage
-url:              http://foxish.me
-baseurl:          http://foxish.me
-github.url:       http://foxish.me
+url:              http://foxish.me/
+baseurl:          http://foxish.me/
+github.url:       http://foxish.me/
 
 
 author:
