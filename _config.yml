@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Anirudh Ramanathan
+tagline:          Personal Webpage
+url:              http://foxish.me
+baseurl:          /
+
+author:
+  name:           Anirudh Ramanathan
+  url:            https://twitter.com/anirudh4444
+
+paginate:         5
+paginate_path:    "page:num"
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/foxish
+
+gems: [jekyll-paginate, jekyll-gist]
