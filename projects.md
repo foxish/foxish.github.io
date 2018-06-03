@@ -28,10 +28,10 @@ for the best use of Azure Cloud Technology at TAMUHack 2014.
 
 ### RandomTrax
 
-Source: <a href="https://chrome.google.com/webstore/detail/randomtrax/ldpbfdbophioodnhdiolfnlneppmdngc"         
-        target="_blank">link</a><br/>
-Chrome Webstore: <a href="https://github.com/foxish/randomTrax"
-                	    target="_blank">link</a>
+Source: <a href="https://github.com/foxish/randomTrax"
+              target="_blank">link</a><br/>
+Chrome Webstore: <a href="https://chrome.google.com/webstore/detail/randomtrax/ldpbfdbophioodnhdiolfnlneppmdngc"         
+        target="_blank">link</a>
 
 A chrome extension that uses Soundcloud's API and presents an embedded
 music player, along with search and genre functionality. An extension I use
