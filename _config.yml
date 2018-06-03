@@ -11,6 +11,8 @@ title:            Anirudh Ramanathan
 tagline:          Personal Webpage
 url:              http://foxish.me
 baseurl:          /
+github.url:       http://foxish.me
+
 
 author:
   name:           Anirudh Ramanathan
