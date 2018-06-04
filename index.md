@@ -11,7 +11,7 @@ advisor to <a href="http://doc.ai">Doc.ai</a>.
 
 #### Kubernetes Committer & Chair of SIG Big Data
 
-I made key contributions to StatefulSets, Big Data and ML tooling.
+I made key contributions to Kubernetes Core Controllers (StatefulSet, ReplicaSet, Deployment, DaemonSet), Big Data and Machine Learning on containers.
 I started and led the community to
 create the Kubernetes Scheduler project in <a href="https://spark.apache.org/" target='_blank'>Apache Spark</a>, was a founding engineer on the <a href="https://github.com/kubeflow" target='_blank'>Kubeflow Project</a>, and provided architectural leadership to containerize
 Big Data workloads like <a href="https://airflow.apache.org/" target='_blank'>Apache Airflow</a>, <a href="https://hortonworks.com/apache/hdfs/" target='_blank'>HDFS</a> and <a href="http://jupyter.org/" target='_blank'>Jupyter</a>.
