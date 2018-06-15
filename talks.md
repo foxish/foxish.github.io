@@ -6,7 +6,10 @@ title: Talks & Publications
 ### Spark+AI Summit 2018
 Date: June 05, 2018 <br/>
 Speaker Page: <a href="https://databricks.com/speaker/anirudh-ramanathan" target="_blank">link</a><br/>
-Session Page: <a href="https://databricks.com/session/apache-spark-on-kubernetes-clusters" target="_blank">link</a>
+
+The Kubernetes and Spark communities have put their heads together over the past year to come up with a new native scheduler for Kubernetes within Apache Spark.In this talk, we explore the exciting new things that this native Kubernetes integration makes possible with Apache Spark. We also go over the roadmap and features that the Kubernetes community has planned for the scheduler over the next several releases of Spark. 
+
+<iframe src="https://player.vimeo.com/video/274783823?app_id=122963" width="500" height="315" frameborder="0" title="Apache Spark on Kubernetes Clusters Anirudh Ramanathan (Google) and Sean Suchter (Pepperdata)" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Couchbase Silicon Valley Meetup
 Date: April 19, 2018 <br/>
