@@ -3,11 +3,10 @@ layout: page
 title: About me
 ---
 
-Software Engineer & Technical Leader with a focus on distributed systems
-and machine learning. I am passionate about start-ups and entrepreneurship.
-Currently, I work on the future of databases at <a href="https://rockset.com"
-target="_blank">Rockset</a> and serve as an
-advisor to <a href="http://doc.ai">Doc.ai</a>.  
+Technical Leader with a focus on distributed systems and machine learning.
+I am passionate about containers, k8s and building better automation for systems of the future.
+
+Currently, I'm working on a new venture. Reach out if you'd like to learn more.
 
 #### Kubernetes Committer & Chair of SIG Big Data
 
@@ -39,10 +38,10 @@ primitives and the <a href="https://spark.apache.org/docs/2.3.0/running-on-kuber
 
 ## Past Experience
 
-For two years till June 2018, I worked at Google on <a href="https://cloud.google.com/kubernetes-engine/" target='_blank'>Google Kubernetes Engine (GKE)</a>.
-As an early member of the GKE team, I wore several hats,
-handling roles from product management to release engineering to being
-point-of-contact for external customers as the team grew. I also spent a couple
+Previously, I worked on the future of databases at <a href="https://rockset.com" target="_blank">Rockset</a>
+and served as a technical advisor to <a href="http://doc.ai">Doc.ai</a>.  
+
+For two years till June 2018, I worked at Google on <a href="https://cloud.google.com/kubernetes-engine/" target='_blank'>Google Kubernetes Engine (GKE)</a>. I also spent a couple
 of years prior to that working on infrastructure at Nvidia.
 
 I have a Master's degree in Computer Science from Texas A&M University and a
